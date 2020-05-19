@@ -22,7 +22,7 @@ settings.py
     # Activate the middleware
     LUMINATI_ENABLED = True
     
-    # The API key 
+    # The Luminati URL
     LUMINATI_URL = 'http://127.0.0.1:24000'
 
     DOWNLOADER_MIDDLEWARES = {

@@ -1,4 +1,4 @@
-# scrapy-luminati
+# scrapyx-luminati
 
 Luminati middleware for Scrapy (http://scrapy.org/)
 
@@ -14,6 +14,10 @@ Install
 Checkout the source and run
 
     python setup.py install
+
+Or
+
+    pip install scrapyx-luminati
 
 
 settings.py

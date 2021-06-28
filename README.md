@@ -1,6 +1,6 @@
 # scrapyx-luminati
 
-[Luminati](https://brightdata.com/?affiliate=ref_5c7c6f828fcb5320de302843) middleware for [Scrapy](http://scrapy.org/)
+[Luminati](https://brightdata.grsm.io/p302843) middleware for [Scrapy](http://scrapy.org/)
 
 Required
 --------

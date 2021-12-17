@@ -19,4 +19,7 @@ class LumninatiProxyMiddleware(object):
         return o
 
     def process_request(self, request, spider):
-        request.meta['proxy'] = self.proxy
+        if 'splash' in request.meta:
+            request.meta['splash']['args']['proxy'] = self.proxy
+        else:
+            request.meta['proxy'] = self.proxy
